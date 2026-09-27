@@ -1,47 +1,58 @@
 export interface CountryType {
-    name?: {
-        common?: string;
-        official?: string;
+
+    name: {
+        common: string;
+        official: string;
     };
-    ccn3?: {
-        ccn3?: string;
+
+    ccn3: {
+        ccn3: string;
     };
-    currencies?: {
-        currencies?: {
+
+    currencies: {
+        currencies: {
             [key: string]: {
-                name?: string;
-                symbol?: string;
+                name: string;
+                symbol: string;
             };
         };
     };
-    capital?: {
-        capital?: string[];
+
+    capital: {
+        capital: string[];
     };
-    region?: {
-        region?: string;
+
+    region: {
+        region: string;
     };
-    languages?: {
-        languages?: {
+
+    languages: {
+        languages: {
             [key: string]: string;
         };
     };
-    area?: {
-        area?: number;
+
+    area: {
+        area: number;
     };
-    cca3?: {
-        cca3?: string;
+
+    cca3: {
+        cca3: string;
     };
-    population?: {
-        population?: number;
+
+    population: {
+        population: number;
     };
-    continents?: {
-        continents?: string[];
+
+    continents: {
+        continents: string[];
     };
-    flags?: {
-        flags?: {
-            png?: string;
-            svg?: string;
-            alt?: string;
+
+    flags: {
+        flags: {
+            png: string;
+            svg: string;
+            alt: string;
         };
     };
 }
