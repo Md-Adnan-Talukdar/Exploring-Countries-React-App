@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-     <h1>World on the GO</h1>
+     <h1>TALUKDAR on the GO</h1>
      <Suspense fallback={<h1>Loading...</h1>}>
    <Countries countriesPromise={countriesPromise()}></Countries>
      </Suspense>

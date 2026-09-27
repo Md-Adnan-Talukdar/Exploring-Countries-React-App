@@ -1,29 +1,47 @@
-.country{
+.country {
     border: 2px solid green;
     border-radius: 10px;
     margin: 10px;
-    
+    padding: 15px;
+    text-align: center;
 }
 
-.countries{
+.countries {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    
-}
-.country img{
-    width: 200px;
-    height:130px;
-    
 }
 
-.country-visited
-{
+.country img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+.country button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.country-visited {
     background-color: lightgreen;
     font-weight: bold;
-    
 }
-.visited-flags img{
-    width: 80px;
 
+.visited-flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.visited-flags img {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
 }
