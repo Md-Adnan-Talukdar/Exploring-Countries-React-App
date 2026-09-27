@@ -1,0 +1,29 @@
+.country{
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+.country img{
+    width: 200px;
+    height:130px;
+    
+}
+
+.country-visited
+{
+    background-color: lightgreen;
+    font-weight: bold;
+    
+}
+.visited-flags img{
+    width: 80px;
+
+}
